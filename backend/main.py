@@ -6,8 +6,8 @@ import os
 import uuid
 from typing import List, Optional
 import uvicorn
-from core.data_extraction import DataExtractionApp
-from models.models import (
+from extractor.backend.core.data_extraction import DataExtractionApp
+from extractor.backend.models.models import (
     ExtractionResponse, 
     ExtractionRequest, 
     DocumentInfo, 
@@ -165,5 +165,5 @@ async def delete_task(task_id: str):
     
     return {"message": f"Task {task_id} and associated files deleted"}
 
-if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+if _name_ == "_main_":
+    uvicorn.run("extractor.backend.main:app", host="0.0.0.0", port=8000, reload=True)
