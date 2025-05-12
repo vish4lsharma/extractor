@@ -1,0 +1,48 @@
+.status-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  .status-info {
+    background-color: #4285f4;
+  }
+  
+  .status-success {
+    background-color: #34a853;
+  }
+  
+  .status-warning {
+    background-color: #fbbc05;
+    color: #333;
+  }
+  
+  .status-error {
+    background-color: #ea4335;
+  }
+  
+  .status-icon {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .status-message {
+    flex: 1;
+  }
+  
+  .status-close {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 0 5px;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+  }
+  
+  .status-close:hover {
+    opacity: 1;
+  }

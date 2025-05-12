@@ -1,0 +1,50 @@
+.progress-container {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .progress-wrapper {
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8em;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-bar-info {
+    background-color: #4285f4;
+  }
+  
+  .progress-bar-success {
+    background-color: #34a853;
+  }
+  
+  .progress-bar-warning {
+    background-color: #fbbc05;
+  }
+  
+  .progress-bar-danger {
+    background-color: #ea4335;
+  }
+  
+  .progress-text {
+    z-index: 1;
+    white-space: nowrap;
+  }
+  
+  .progress-status {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+  }

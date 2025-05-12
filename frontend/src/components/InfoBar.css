@@ -1,0 +1,30 @@
+.info-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 12px 15px;
+    background-color: #e8f0fe;
+    border-bottom: 1px solid #d0e0fc;
+  }
+  
+  .info-bar-empty {
+    justify-content: center;
+    color: #666;
+    font-style: italic;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-label {
+    font-weight: 600;
+    color: #4285f4;
+    margin-right: 5px;
+  }
+  
+  .info-value {
+    color: #333;
+  }
+  

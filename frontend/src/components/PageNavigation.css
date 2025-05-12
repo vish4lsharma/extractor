@@ -1,0 +1,115 @@
+.page-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .nav-button {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: all 0.2s ease;
+  }
+  
+  .nav-button:hover:not(:disabled) {
+    background-color: #f5f5f5;
+  }
+  
+  .nav-button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .page-numbers {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .page-number {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+  
+  .page-number.active {
+    background-color: #4285f4;
+    color: white;
+    border-color: #4285f4;
+  }
+  
+  .page-number:hover:not(.active):not(:disabled) {
+    background-color: #f5f5f5;
+  }
+  
+  .ellipsis {
+    margin: 0 5px;
+    color: #666;
+  }
+  
+  /* ProgressBar.css */
+  .progress-container {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .progress-wrapper {
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8em;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-bar-info {
+    background-color: #4285f4;
+  }
+  
+  .progress-bar-success {
+    background-color: #34a853;
+  }
+  
+  .progress-bar-warning {
+    background-color: #fbbc05;
+  }
+  
+  .progress-bar-danger {
+    background-color: #ea4335;
+  }
+  
+  .progress-text {
+    z-index: 1;
+    white-space: nowrap;
+  }
+  
+  .progress-status {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+  }
